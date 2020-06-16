@@ -1,0 +1,28 @@
+INSERT INTO blogful_articles (title, date_published, content)
+VALUES
+    ('Article Title 1', now() - '21 days'::INTERVAL, 'article 1 body'),
+    ('Article Title 2', now() - '21 days'::INTERVAL, 'article 2 body'),
+    ('Article Title 3', now() - '19 days'::INTERVAL, ''),
+    ('Article Title 4', now() - '18 days'::INTERVAL, 'article 4 body'),
+    ('Article Title 5', now() - '16 days'::INTERVAL, 'article 5 body'),
+    ('Article Title 6', now() - '16 days'::INTERVAL, 'article 6 body'),
+    ('Article Title 7', now() - '15 days'::INTERVAL, 'article 7 body'),
+    ('Article Title 8', now() - '14 days'::INTERVAL, 'article 8 body'),
+    ('Article Title 9', now() - '14 days'::INTERVAL, ''),
+    ('Article Title 10', now() - '12 days'::INTERVAL, 'article 10 body'),
+    ('Article Title 11', now() - '11 days'::INTERVAL, 'article 11 body'),
+    ('Article Title 12', now() - '11 days'::INTERVAL, 'article 12 body'),
+    ('Article Title 13', now() - '10 days'::INTERVAL, 'article 13 body'),
+    ('Article Title 14', now() - '8 days'::INTERVAL, 'article 14 body'),
+    ('Article Title 15', now() - '7 days'::INTERVAL, 'article 15 body'),
+    ('Article Title 16', now() - '4 days'::INTERVAL, 'article 16 body'),
+    ('Article Title 17', now() - '4 days'::INTERVAL, 'article 17 body'),
+    ('Article Title 18', now() - '3 days'::INTERVAL, 'article 18 body'),
+    ('Article Title 19', now() - '2 days'::INTERVAL, 'article 19 body'),
+    ('Article Title 20', now() - '2 days'::INTERVAL, 'article 20 body'),
+    ('Article Title 21', now(), 'article 21 body'),
+    ('Article Title 22', now(), 'article 22 body'),
+    ('Article Title 23', now(), 'article 23 body'),
+    ('Article Title 24', now(), 'article 24 body'),
+    ('Article Title 25', now(), 'article 25 body')
+;
